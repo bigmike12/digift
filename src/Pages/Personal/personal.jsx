@@ -6,9 +6,9 @@ import MainMenu from "../../Components/MainMenu/mainMenu";
 import SideMenu from "../../Components/SideMenu/sideMenu";
 import SmallBanner from "../../Components/SmallBanner/smallBanner";
 import Testimonial from "../../Components/Testimonial/testimonial";
-import styles from "./homePage.module.scss";
+import styles from "./personal.module.scss";
 
-const HomePage = () => {
+const Personal = () => {
   return (
     <BasePagelayout>
       <div className={styles.homePage}>
@@ -32,16 +32,16 @@ const HomePage = () => {
           <Testimonial />
         </div>
 
-        <div  className={styles.smallBanner}>
+        <div className={styles.smallBanner}>
           <SmallBanner />
         </div>
 
         <div>
-        <Footer />
+          <Footer />
         </div>
       </div>
     </BasePagelayout>
   );
 };
 
-export default HomePage;
+export default Personal;

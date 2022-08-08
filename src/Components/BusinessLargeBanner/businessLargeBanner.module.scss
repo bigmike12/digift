@@ -1,0 +1,66 @@
+.businessLargeBanner {
+  width: 1376px;
+  height: 682px;
+  border-radius: 16px;
+  background: #0069e0;
+  margin: 51px 32px;
+  text-align: center;
+  position: relative;
+  display: flex;
+  justify-content: center;
+
+  .img {
+    border-radius: 16px;
+    opacity: 0.3;
+  }
+
+  &__info {
+    position: absolute;
+    top: 0;
+    margin-top: 130px;
+
+    &__topText {
+      font-weight: 600;
+      font-size: 14px;
+      color: #ffffff;
+      margin-bottom: 32px;
+    }
+
+    h1 {
+      margin-right: 372px;
+      margin-left: 372px;
+      color: #ffffff;
+      font-size: 56px;
+      line-height: 70px;
+
+      span {
+        margin: 0 8px;
+      }
+    }
+
+    &__Text {
+      margin-left: 463px;
+      margin-right: 463px;
+      font-weight: 600;
+      font-size: 14px;
+      color: #ffffff;
+    }
+
+    &__btn {
+      margin-left: 604.5px;
+      margin-right: 604.5px;
+      font-weight: 600;
+      font-size: 13px;
+      color: #ffffff;
+      margin-top: 40px;
+      padding-bottom: 4px;
+      border-bottom: 1px solid #ffffff;
+    }
+
+    .wide {
+      position: relative;
+      top: 39px;
+      right: 99px;
+    }
+  }
+}

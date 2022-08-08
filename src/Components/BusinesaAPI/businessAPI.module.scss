@@ -1,0 +1,95 @@
+.businessAPI {
+    margin-top: 150px;
+    margin-bottom: 135px;
+    width: 1440;
+    margin-left: 153px;
+    margin-right: 153px;
+    display: flex;
+    justify-content: space-between;
+  
+    &__left {
+      width: 510px;
+  
+      h1 {
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 67px;
+        color: #000429;
+        margin-bottom: 24px;
+  
+        &::after {
+          content: url("./../../../public/images/wide.png");
+          margin-left: 16px;
+        }
+  
+        span {
+          color: #0078ff;
+        }
+      }
+  
+      p {
+        width: 409px;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 20px;
+        color: #8a91a8;
+      }
+  
+      &__button {
+        margin-top: 24px;
+  
+        .started {
+          width: 150px;
+          height: 48px;
+          padding: 8px 24px;
+          font-size: 14px;
+          color: #fff;
+          background: #0078ff;
+          border-radius: 4px;
+          border: none;
+          margin-right: 24px;
+        }
+  
+        .sign {
+          width: 120px;
+          height: 48px;
+          padding: 8px 24px;
+          font-size: 14px;
+          color: #8a91a8;
+          border: 1px solid #f5f7fa;
+          border-radius: 4px;
+          border: none;
+          background-color: #fcfcfc;
+        }
+  
+        .icon1 {
+          margin-left: 16px;
+  
+          path {
+            stroke: #fff !important;
+          }
+        }
+  
+        .icon2 {
+          margin-left: 10px;
+        }
+      }
+    }
+  
+    &__right {
+      position: relative;
+  
+      .left {
+        position: absolute;
+        top: 136px;
+        left: -16px;
+      }
+  
+      .right {
+        position: absolute;
+        top: 136px;
+        right: -16px;
+      }
+    }
+  }
+  

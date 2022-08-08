@@ -2,6 +2,7 @@ import Icon from "../../Icon";
 import Button from "../Button/button";
 import SearchBar from "../SearchBar/searchBar";
 import styles from "./navBar.module.scss";
+import { Link } from "react-router-dom";
 
 const NavBar = () => {
   return (
@@ -10,14 +11,18 @@ const NavBar = () => {
         <Icon name="Logo" />
       </div>
       <div className={styles.navBar__details}>
-        <div className={styles.navBar__details_personal}>
-          <p>Personal</p>
-          <Icon name="Arrow-Right" />
-        </div>
-        <div className={styles.navBar__details_business}>
-          <p>Business</p>
-          <Icon name="Arrow-Right" />
-        </div>
+        <Link to="/" style={{ textDecoration: "none" }}>
+          <div className={styles.navBar__details_personal}>
+            <p>Personal</p>
+            <Icon name="Arrow-Right" />
+          </div>
+        </Link>
+        <Link to="/business" style={{ textDecoration: "none" }}>
+          <div className={styles.navBar__details_business}>
+            <p>Business</p>
+            <Icon name="Arrow-Right" />
+          </div>
+        </Link>
 
         <SearchBar />
 
