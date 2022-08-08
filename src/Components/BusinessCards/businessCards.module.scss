@@ -1,7 +1,7 @@
 .container {
-    display: flex;
-    margin: 129px 64px;
-    justify-content: space-between;
+  display: flex;
+  margin: 129px 64px;
+  justify-content: space-between;
 }
 
 .businessCards {
@@ -11,14 +11,19 @@
   border-radius: 16px;
   background-color: #c2ddff;
   position: relative;
-padding-top: 72px;
+  padding-top: 72px;
+  margin-right: 32px;
+
+  &:last-child {
+    margin-right: 0;
+  }
 
   &__text {
     margin-left: 64px;
 
     h1 {
-        margin-top: 30px;
-        margin-bottom: 0;
+      margin-top: 30px;
+      margin-bottom: 0;
       margin-right: 136px;
       font-weight: 700;
       font-size: 46px;
@@ -31,7 +36,7 @@ padding-top: 72px;
     }
 
     p {
-        margin-right: 223px;
+      margin-right: 223px;
       margin-top: 40px;
       font-weight: 600;
       font-size: 11.5px;
