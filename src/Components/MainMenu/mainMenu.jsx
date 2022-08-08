@@ -87,6 +87,8 @@ const MainMenu = () => {
             title="Load more products"
             className={styles.button__btn}
             onClick={handleShowMore}
+            icon="Right"
+            iconStyle={styles.icon2}
           />
         </div>
       ) : (
