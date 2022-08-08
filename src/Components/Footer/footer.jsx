@@ -3,6 +3,23 @@ import styles from "./footer.module.scss";
 import Icon from "../../Icon";
 import { contacts, links, socials } from "./data";
 
+const scrollToPosition = (scrollTop, context, smooth) => {
+  const DOMContext = context || window;
+  if (typeof DOMContext.scroll === "function") {
+    try {
+      DOMContext.scroll({
+        top: scrollTop,
+        behavior: smooth ? "smooth" : "auto",
+      });
+    } catch (e) {
+      //for browsers that don't support ScrollToOptions
+      DOMContext.scroll(0, scrollTop);
+    }
+  }
+};
+
+const scrollToTop = (smooth) => scrollToPosition(0, null, smooth);
+
 const Footer = () => {
   return (
     <div className={styles.footer}>
@@ -51,7 +68,7 @@ const Footer = () => {
 
       <div className={styles.footer__bottom}>
         <div className={styles.footer__bottom__text}>
-          <img src="images/ToTop.png" alt="ScrollToTop" />
+          <img src="images/ToTop.png" alt="ScrollToTop" onClick={scrollToTop}/>
           <p>
             The website www.digiftng.com is owned and operated by Blinksky
             Nigeria Limited, a company duly registered under the Laws of the
