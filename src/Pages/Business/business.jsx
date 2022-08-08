@@ -5,7 +5,6 @@ import BusinessBanner from "../../Components/BusinessBanner/businessBanner";
 import BusinessCards from "../../Components/BusinessCards/businessCards";
 import BusinessLargeBanner from "../../Components/BusinessLargeBanner/businessLargeBanner";
 import Footer from "../../Components/Footer/footer";
-import styles from "./business.module.scss";
 
 const Business = () => {
   return (
