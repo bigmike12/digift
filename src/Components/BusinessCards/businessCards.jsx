@@ -7,7 +7,9 @@ const BusinessCards = () => {
       <div className={styles.businessCards}>
         <div className={styles.businessCards__text}>
           <h1>
-            Designed for today’s <span>ambitious</span> businesses.
+            Designed for
+            <br /> today’s <span>ambitious</span>
+            <br /> businesses.
           </h1>
           <p>
             We give merchants the ability to sell digital Gift Cards for their
@@ -23,7 +25,9 @@ const BusinessCards = () => {
       <div className={styles.businessCards}>
         <div className={styles.businessCards__text}>
           <h1>
-            Features that <span>empower</span> your business
+            Features that
+            <br /> <span>empower</span> your
+            <br /> business
           </h1>
           <p>
             Automate your sales and marketing so you can focus on other areas of
