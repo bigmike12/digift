@@ -1,0 +1,118 @@
+.footer {
+  margin-top: 104px;
+  border-top: 1px solid #f5f7fa;
+  padding-top: 64px;
+
+  &__top {
+    display: flex;
+    margin-left: 147.5px;
+    padding-bottom: 64px;
+    border-bottom: 1px solid #f5f7fa;
+
+    &__socials {
+      p {
+        font-weight: 400;
+        font-size: 14px;
+        color: #000429;
+      }
+      &__icons {
+        margin-top: 40px;
+        width: 144px;
+        display: flex;
+        justify-content: space-between;
+      }
+    }
+
+    &__contact {
+      margin-left: 80px;
+      h4 {
+        font-weight: 400;
+        font-size: 14px;
+        color: #000429;
+        margin: 0;
+        margin-bottom: 8px !important;
+      }
+
+      p {
+        font-weight: 400;
+        font-size: 13px;
+        color: #8a91a8;
+        margin: 0;
+      }
+
+      &__info {
+        width: 166px;
+        margin-bottom: 26px;
+
+        &:last-child {
+          margin-bottom: 0;
+        }
+      }
+
+      .terms {
+        display: flex;
+        align-items: center;
+
+        &__policy {
+          display: flex;
+          align-items: center;
+          margin-right: 16px;
+
+          p {
+            margin-right: 9px;
+          }
+        }
+      }
+    }
+
+    &__links {
+      margin-left: 72px;
+      display: grid;
+      grid-template-columns: auto auto auto;
+      column-gap: 80px;
+
+      &__info {
+        font-weight: 400;
+        font-size: 14px;
+        color: #8a91a8;
+
+        h3 {
+          margin-top: 0;
+        }
+
+        .title {
+          color: #000429;
+          font-weight: 400;
+          font-size: 14px;
+        }
+      }
+    }
+  }
+
+  &__bottom {
+    margin: 0 117.5px;
+    padding-top: 67px;
+    padding-bottom: 106px;
+
+    &__text {
+      display: flex;
+      align-items: center;
+
+      p {
+        margin: 0;
+        font-weight: 400;
+        font-size: 11px;
+        line-height: 20px;
+        color: #8a91a8;
+        margin-left: 20px;
+        display: inline;
+      }
+    }
+
+    &__copywrite {
+      font-weight: 400;
+      font-size: 14px;
+      color: #8a91a8;
+    }
+  }
+}

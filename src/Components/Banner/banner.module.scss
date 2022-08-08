@@ -1,0 +1,69 @@
+.homePage {
+  &__banner {
+    position: relative;
+    width: 1280px;
+    height: 682px;
+    background-color: #0069e0;
+    border-radius: 32px;
+    margin: auto;
+    margin-bottom: 154px;
+
+    &_text {
+      position: absolute;
+      text-align: center;
+      top: 0;
+      margin-top: 80px;
+      left: 300px;
+
+      &_button {
+        padding: 16px 35.5px;
+        background-color: #fff;
+        color: #0069e0;
+        border: none;
+        box-shadow: 4px 4px 0px #5ca5ff;
+        border-radius: 4px;
+        margin-top: 32px;
+      }
+
+      h1 {
+        font-weight: 700;
+        font-size: 64px;
+        color: #fff;
+        line-height: 77px;
+      }
+
+      p {
+        margin-top: 32px;
+        color: #fff;
+      }
+    }
+
+    .img {
+      border-radius: 32px;
+      opacity: 0.3;
+    }
+
+    .amazon {
+      position: absolute;
+      bottom: 24px;
+    }
+
+    .mastercard {
+      position: absolute;
+      bottom: 24px;
+      right: 0;
+    }
+
+    .decorLeft {
+      position: absolute;
+      left: 279px;
+      margin-top: 128px;
+    }
+
+    .decorRight {
+      position: absolute;
+      right: 314px;
+      margin-top: 128px;
+    }
+  }
+}

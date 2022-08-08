@@ -1,0 +1,40 @@
+.testimonialCard {
+  width: 411px;
+  height: 410px;
+  background: #ffffff;
+  border: 2px solid #ebeff5;
+  border-radius: 8px;
+
+  &__text {
+    width: 331px;
+    margin-top: 49px !important;
+    margin: auto;
+    margin-bottom: 64px !important;
+
+    p {
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 32px;
+      color: #8a91a8;
+    }
+  }
+
+  &__info {
+    display: flex;
+    margin-left: 40px;
+
+    img {
+      width: 48px;
+      height: 48px;
+    }
+
+    &__name {
+      margin-left: 16px;
+
+      h4,
+      p {
+        margin: 0;
+      }
+    }
+  }
+}

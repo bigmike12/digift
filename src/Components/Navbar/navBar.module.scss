@@ -1,0 +1,97 @@
+.navBar {
+  padding: 0 45px;
+  height: 96px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 65px;
+  box-shadow: 0px 1px 0px #F5F7FA;
+
+  &__details {
+    margin-left: 143px;
+    display: flex;
+
+    p {
+      font-size: 14px;
+      color: #8a91a8;
+    }
+
+    &_personal {
+      display: flex;
+      align-items: center;
+      margin-right: 32px;
+
+      p {
+        margin-right: 16px;
+      }
+    }
+
+    &_business {
+      display: flex;
+      align-items: center;
+      margin-right: 48px;
+
+      p {
+        margin-right: 16px;
+      }
+    }
+
+    &_switch {
+      display: flex;
+      //   justify-content: space-around;
+      align-items: center;
+      margin-left: 72px;
+      height: 42px;
+      width: 102px;
+      background-color: #f3f4f7;
+      border-radius: 50px;
+
+      &_light {
+        width: 50px;
+        height: 36px;
+        border-radius: 50px;
+        background-color: #ffffff;
+        padding: auto 0;
+        position: relative;
+        margin-left: 3px;
+
+        .light {
+          position: absolute;
+          top: 8px;
+          left: 16px;
+        }
+      }
+
+      &_dark {
+        .dark {
+          margin-left: 16px;
+        }
+      }
+    }
+  }
+}
+
+.button {
+  display: flex;
+
+  &__login {
+    padding: 15.5px 28px;
+    font-size: 14px;
+    color: #8a91a8;
+    background: none;
+    border: none;
+  }
+
+  &__started {
+    display: flex;
+    align-items: center;
+    background-color: #0078ff;
+    border: none;
+    color: #ffffff;
+    padding: 14px 16px 14px 16px;
+    border-radius: 4px;
+
+    .icon {
+      margin-left: 16px;
+    }
+  }
+}
